@@ -249,7 +249,6 @@ main section form input {
   font-family: "Lato", sans-serif;
   color: #ab5fde;
   font-size: 20px;
-  border: solid red 1px;
 }
 
 body {
@@ -357,7 +356,7 @@ header nav ul {
   background-color: #511877;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   /*nosotros*/
   .col1 img {
     width: 100%;
