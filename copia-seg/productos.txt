@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fuente gravits one-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+    <!--fuemte lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lato&display=swap" rel="stylesheet">
+    <title>nuevo!</title>
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--link css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="../assets/icon/favicon.png">
+</head>
+
+<body>
+    <!--cabecera del sitio-->
+    <header class="header">
+        <!--logo-->
+        <div class="logo">
+            <img src="../assets/img/icon_grande.png" alt="icono sush" class="logo">
+        </div>
+
+
+        <!--menu de navegacion-->
+        <nav>
+
+            <ul>
+                <li class="menu"><a href="../index.html">Inicio</a></li>
+                <li class="menu"><a href="./nuevo.html">nuevo!</a></li>
+                <li class="menu"><a href="#">productos</a></li>
+                <li class="menu"><a href="./contacto.html">contacto</a></li>
+                <li class="menu"><a href="./nosotros.html">nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--main productos-->
+    <main>
+
+        <section>
+            <h1 class="titulo-productos"> productos</h1>
+
+
+        </section>
+        <!--cards productos-->
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/pulsera_angel.jpg" class="card-img-top" alt="pulsera dije angel">
+                        <div class="card-body">
+                            <h5 class="card-title">pulsera angel</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/mari_pulsera_dijrojo.jpg" class="card-img-top"
+                            alt="pulsera dije de mariposa rojo">
+                        <div class="card-body">
+                            <h5 class="card-title">pulsera butterfly red</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/mari_collar.jpg" class="card-img-top"
+                            alt="collar mariposa transparente rosa">
+                        <div class="card-body">
+                            <h5 class="card-title">collar butterfly rosa</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/mari-pulsera.jpg" class="card-img-top" alt="pulsera dijes de mariposa">
+                        <div class="card-body">
+                            <h5 class="card-title">pulsera dije butterfly</h5>
+                            <p class="card-text">$1600</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/dije-mariplata.jpg" class="card-img-top"
+                            alt="pulsera dije mariposa plata">
+                        <div class="card-body">
+                            <h5 class="card-title">pulsera butterfly plata</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_marioro.jpg" class="card-img-top"
+                            alt="collar mariposa color oro">
+                        <div class="card-body">
+                            <h5 class="card-title">collar butterfly oro</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_lunaororosa.jpg" class="card-img-top"
+                            alt="collar luna color oro rosa">
+                        <div class="card-body">
+                            <h5 class="card-title">collar moon oro rosa</h5>
+                            <p class="card-text">$300</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_lunamegra.jpg" class="card-img-top" alt="collar dije luna negra">
+                        <div class="card-body">
+                            <h5 class="card-title">collar black moon</h5>
+                            <p class="card-text">$2500</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_latidocora.jpg" class="card-img-top"
+                            alt="collar dije latido corazon">
+                        <div class="card-body">
+                            <h5 class="card-title">collar heartbeat</h5>
+                            <p class="card-text">$1600</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_infinitomari.jpg" class="card-img-top"
+                            alt="collar infinito con mariposa">
+                        <div class="card-body">
+                            <h5 class="card-title">collar infinity</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_florlotooro.jpg" class="card-img-top"
+                            alt="collar flor de loto color oro">
+                        <div class="card-body">
+                            <h5 class="card-title">collar flor de loto color oro</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_corazonalas_rosaoro.jpg" class="card-img-top"
+                            alt="collar dije corazon con alas rosa">
+                        <div class="card-body">
+                            <h5 class="card-title">collar dije corazon con alas rosa</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collar_angel.jpg" class="card-img-top" alt="collar dije angel">
+                        <div class="card-body">
+                            <h5 class="card-title">collar dije angel</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/cadenitasimple.jpg" class="card-img-top"
+                            alt="pulsera de cadenita simple color oro">
+                        <div class="card-body">
+                            <h5 class="card-title">pulsera de cadenita simple color oro</h5>
+                            <p class="card-text">$1600</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/cadenitas_diamantes.jpg" class="card-img-top"
+                            alt="collar con dijes transparentes">
+                        <div class="card-body">
+                            <h5 class="card-title">collar diamante</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/cadenita-simplerara.jpg" class="card-img-top"
+                            alt="pulsera de color oro">
+                        <div class="card-body">
+                            <h5 class="card-title">pulsera de color oro</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/cadena_joyaverde.jpg" class="card-img-top" alt="cadena con dije verde">
+                        <div class="card-body">
+                            <h5 class="card-title">collar dije verde</h5>
+                            <p class="card-text">$3000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/cadenita-redondelitos.jpg" class="card-img-top"
+                            alt="cadenita redondeles pequeños">
+                        <div class="card-body">
+                            <h5 class="card-title">cadenita circle</h5>
+                            <p class="card-text">$1600</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/aros_mariposas.jpg" class="card-img-top" alt="aros mariposas">
+                        <div class="card-body">
+                            <h5 class="card-title">aros butterfly</h5>
+                            <p class="card-text">$2000</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/aros_estrellas.jpg   " class="card-img-top"
+                            alt="aros forma de estrella">
+                        <div class="card-body">
+                            <h5 class="card-title">aros star</h5>
+                            <p class="card-text">$1600</p>
+                            <a href="#" class="btn btn-primary submit-cards">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+    <!--footer productos-->
+    <footer class="footer">
+        <!--logo footer-->
+        <div class="logo-footer">
+            <img src="../assets/img/icon_grande.png" class="logo-footer">
+        </div>
+
+        <p class="derechos-footer">© Sush 2023
+            Todos los derechos reservados</p>
+
+        <!-- links redes sociales-->
+
+        <div>
+            <a href="https://www.instagram.com/sushjoyeria/"><img src="../assets/icon/instagram-icon.png"
+                    alt="instagram" class="instagram_footer"></a>
+
+            <a href="https://twitter.com/kukook13"><img src="../assets/icon/tw-icon.png" alt="twitter"
+                    class="twitter_footer"></a>
+        </div>
+
+    </footer>
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

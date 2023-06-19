@@ -1,0 +1,53 @@
+ /*menu de navegacion contacto!*/
+ .menu-contacto {
+    display: inline-block;
+    color: #fdf4f4;
+}
+
+ /*contenedor-formulario*/
+ .form-contacto {
+    width: 40vh;
+    height: 49vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /*formulario contacto.html*/
+  main section form label {
+    margin: 10px;
+    background-color: #ab5fde;
+    color: #fce1e1;
+    border-radius: 50px;
+    width: 20%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /*input form contacto */
+  main section form input {
+    width: 70%;
+    border-radius: 40px;
+    background-color: #ab5fde34;
+    padding: 10px;
+    outline: none;
+    border: solid #ab5fde;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /*boton formulario*/
+  .contacto-botonsubmit {
+    width: 15%;
+  }
+  
+  /*lista contacto*/
+  .row .col ul li {
+    list-style: none;
+  }
+  

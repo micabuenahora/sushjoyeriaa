@@ -1,0 +1,31 @@
+/*menu de navegacion index*/
+.menu-index {
+    display: inline-block;
+    color: #fdf4f4;
+    background-color: #ab5fde;
+    border-radius: 10px;
+    color: #fce1e1;
+  }
+
+  /*encabezado index*/
+  .encabezado-index {
+    font-family: "Gravitas One", cursive;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    color: #ab5fde;
+  }
+
+  /*caja encabezado index*/
+  .encabezado-principal {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /*carousel index*/
+  .carousel-index {
+    display: flex;
+    justify-content: center;
+  }
+  
