@@ -23,10 +23,15 @@
   justify-content: space-around;
 }
 
-/*carousel index*/
+/*carousel1 index*/
 .carousel-index {
   display: flex;
   justify-content: center;
+}
+
+/*carousel2 index*/
+#carouselExampleInterval {
+  margin-bottom: 50px;
 }
 
 /*menu de navegacion nuevo!*/
@@ -305,7 +310,7 @@ header nav ul {
 /*footer*/
 .footer {
   width: 100%;
-  height: 15vh;
+  height: 25vh;
   background-color: #5dc7f5;
   display: flex;
   justify-content: space-around;
@@ -356,13 +361,16 @@ header nav ul {
   background-color: #511877;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   /*nosotros*/
   .col1 img {
     width: 100%;
     height: 100%;
     text-align: center;
     border-radius: 30px;
+  }
+  .titulo-nosotros {
+    font-size: 15px;
   }
   /*contacto6*/
   /*boton formulario*/
@@ -387,9 +395,7 @@ header nav ul {
   }
   /*container productos*/
   .container-productos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 90%;
   }
   /*imagenes productos.html*/
   .card .card-img-top {
@@ -448,10 +454,10 @@ header nav ul {
   /* caja titulo nuevo!*/
   .titulo-nuevo {
     font-family: "Gravitas One", cursive;
-    font-size: 20px;
+    font-size: 15px;
     margin: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     align-items: center;
     color: #ab5fde;
   }
@@ -545,7 +551,7 @@ header nav ul {
   /*footer*/
   .footer {
     width: 100%;
-    height: 15vh;
+    height: 25vh;
     background-color: #5dc7f5;
     display: flex;
     justify-content: space-around;
@@ -573,38 +579,4 @@ header nav ul {
     width: 100px;
     height: 100px;
   }
-  /**/
-  /*
-      .footer {
-        min-width: 100%;
-        width:100%;
-        flex-direction: column;
-       min-height: 100%;
-       height: 100%;
-      } 
-  .derechos-footer{
-      font-size: 10px;
-  }
-      /*header*
-      .header {
-        min-width: 100%;
-      }
-      .header nav ul li a {
-        border-radius: 10px;
-        color: #fce1e1;
-        font-size: 10px;
-        padding: 10px;
-      }
-      .logo {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        margin: 20px;
-      }
-
-      /*lista contacto*
-      .row .lista-contacto ul li {
-        display: flex;
-        justify-content: flex-start;
-      }*/
 }/*# sourceMappingURL=style.css.map */
