@@ -97,6 +97,22 @@
   color: #fce1e1;
 }
 
+.boton-wpp {
+  color: #fce1e1;
+  background-color: #ab5fde;
+  border-radius: 50px;
+}
+
+.boton-close {
+  color: #ab5fde;
+  background-color: #fce1e1;
+  border-radius: 50px;
+}
+
+div button a {
+  color: #fce1e1;
+}
+
 /*menu de navegacion productos*/
 .menu-productos {
   display: inline-block;
@@ -381,7 +397,7 @@ header nav ul {
   }
   .col1 img {
     width: 70%;
-    height: 70%;
+    height: 50%;
   }
   /*contacto*/
   /*boton formulario*/
