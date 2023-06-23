@@ -288,6 +288,42 @@ a {
   text-decoration: none;
 }
 
+/*footer*/
+.footer {
+  width: 100%;
+  height: 25vh;
+  background-color: #5dc7f5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*derechos footer*/
+.derechos-footer {
+  display: inline-block;
+}
+
+/*link instagram footer*/
+.instagram_footer {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+/*link twitter footer*/
+.twitter_footer {
+  display: inline-block;
+  color: #ab5fde;
+  width: 50px;
+  height: 50px;
+}
+
+/*logo footer*/
+.logo-footer {
+  width: 100px;
+  height: 100px;
+}
+
 .logo {
   display: inline-block;
   width: 200px;
@@ -330,42 +366,6 @@ header nav ul {
   padding: 10px;
 }
 
-/*footer*/
-.footer {
-  width: 100%;
-  height: 25vh;
-  background-color: #5dc7f5;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-/*derechos footer*/
-.derechos-footer {
-  display: inline-block;
-}
-
-/*link instagram footer*/
-.instagram_footer {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
-
-/*link twitter footer*/
-.twitter_footer {
-  display: inline-block;
-  color: #ab5fde;
-  width: 50px;
-  height: 50px;
-}
-
-/*logo footer*/
-.logo-footer {
-  width: 100px;
-  height: 100px;
-}
-
 /*links*/
 .header nav ul li a:hover {
   color: #fce1e1;
@@ -384,11 +384,24 @@ header nav ul {
   background-color: #511877;
 }
 
+.boton-wpp:hover {
+  background-color: #fce1e1;
+}
+
+.boton-wpp a:hover {
+  color: #511877;
+}
+
+.boton-close:hover {
+  color: #fce1e1;
+  background-color: #511877;
+}
+
 @media screen and (max-width: 910px) {
   /*nosotros*/
   .col1 img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     text-align: center;
     border-radius: 30px;
   }
@@ -397,7 +410,7 @@ header nav ul {
   }
   .col1 img {
     width: 70%;
-    height: 50%;
+    height: 100%;
   }
   /*contacto*/
   /*boton formulario*/

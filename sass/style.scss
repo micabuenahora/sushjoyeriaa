@@ -1,22 +1,24 @@
-@import "index";
 
-@import "nuevo";
 
-@import "productos";
+@import "../sass/pages/index.scss";
 
-@import "contacto";
+@import "../sass/pages/nuevo.scss";
 
-@import "nosotros";
+@import "../sass/pages/productos";
 
-@import "reseteo_general";
+@import "../sass/pages/contacto.scss";
 
-@import "header";
+@import "../sass/pages/nosotros.scss";
 
-@import "footer"; 
+@import "../sass/reseteo_general";
 
-@import "pseudoclases";
+@import "../sass/footer.scss";
 
-@import "mediaqueris";
+@import "../sass/header.scss"; 
+
+@import "../sass/pseudoclases.scss";
+
+@import "../sass/mediaqueris/queris910";
 
  
   
